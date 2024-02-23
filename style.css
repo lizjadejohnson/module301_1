@@ -21,15 +21,13 @@ body {
   border-width: 10px;
   background-color: rgba(179, 99, 0, 0.624);
   margin: 1em;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
 }
 
 .midHead {
   font-size: 22px;
   text-align: center;
   font-weight: bold;
+  margin-top: 3%;
 }
 
 .midButtonsGroup {
@@ -44,7 +42,7 @@ body {
   border-width: 3px;
   background-color: rgb(255, 77, 0);
   color: rgba(61, 20, 0, 0.88);
-  margin: 0.2em;
+  margin: 0.3em;
   padding: 0.2em;
   text-align: center;
   width: 35%;
@@ -55,28 +53,37 @@ body {
 
 .attnBtn:hover {
   border: solid rgb(255, 234, 0);
-  background-color: rgba(117, 62, 0, 0.587);
+  border-width: 3px;
+  background-color: rgba(117, 62, 0);
   color: rgb(255, 255, 255);
+  margin: 0.3em;
+  padding: 0.2em;
+  text-align: center;
+  width: 35%;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .attnLow {
   width: 100%;
   text-align: center;
-  padding: 1em;
+  min-height: 12vh;
+  justify-content: center;
 }
 
 .defPopup {
   display: none;
   font-size: 22px;
+  padding-top: 1em;
 }
 
 .lowContainer {
   border: solid orange;
   background-color: gold;
   margin: 1em;
-  display: flex;
-  flex-direction: column;
 }
+
 .lowContainer:hover {
   border: solid rgb(255, 213, 0);
   background-color: rgba(255, 234, 0, 0.236);
@@ -84,6 +91,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.lowHead {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.lowBody {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 25%;
+}
+
 .phaseContainer {
   border: solid black;
   border-width: 0.2px;
@@ -111,20 +133,6 @@ body {
   padding: 12px;
   width: 50%;
   text-align: right;
-}
-
-.lowHead {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 25%;
-}
-
-.lowBody {
-  font-size: 50px;
-  text-align: center;
-  margin-top: 10%;
-  padding-bottom: 25%;
 }
 
 .borderContainer {
