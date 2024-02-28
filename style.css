@@ -158,6 +158,36 @@ body {
   padding: 0.5em;
 }
 
+.valueContainer {
+  border: solid rgb(255, 136, 0);
+  background-color: rgba(134, 58, 0, 0.427);
+  margin: 1em;
+  text-align: center;
+  padding: 0.5em;
+  padding-bottom: 1em;
+}
+.vcUpper {
+  border: solid rgb(255, 136, 0);
+  background-color: rgba(255, 132, 0, 0.775);
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.vcUpper div {
+  border: solid rgb(255, 136, 0);
+  border-radius: 50%; /* Makes the divs circular */
+  background-color: rgb(255, 216, 153);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center; /*Centers content vertically */
+  margin: 1em;
+}
+
 #bc1 {
   background-color: rgba(255, 0, 0, 0.279);
 }
